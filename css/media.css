@@ -1,0 +1,109 @@
+@media (max-width: 880px) {
+  .header__menu {
+    display: none;
+  }
+  .burger {
+    display: block;
+  }
+  .header__menu {
+    gap: 80px;
+  }
+  .header__menu-link {
+    color: white;
+    font-size: 20px;
+  }
+
+  .header__row {
+    margin-inline: 20px;
+  }
+  .header__logo {
+    position: relative;
+    width: 60px;
+    z-index: 10;
+  }
+
+  .hero {
+    padding: 50px 20px;
+  }
+  .hero__title {
+    font-size: 36px;
+    line-height: 56px;
+    text-align: center;
+    margin: 0 auto 30px auto;
+    padding-top: 70px;
+  }
+  .hero__text {
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 50px;
+  }
+  .hero__btn {
+    display: block;
+    margin: 0 auto;
+  }
+
+  .advantages {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    margin-inline: 20px;
+  }
+  .advantages__title {
+    font-size: 30px;
+    margin-bottom: 30px;
+  }
+  
+
+  .learning__row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+    gap: 25px;
+  }
+  .learning {
+    padding-inline: 45px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+  .contacts {
+    padding-top: 150px;
+    padding-bottom: 60px;
+    margin-inline: 20px;
+  }
+  .contacts__title {
+    font-size: 35px;
+    margin-bottom: 40px;
+  }
+  .contacts__form-inputs input {
+    width: 300px;
+  }
+  .contacts__number {
+    font-size: 16px;
+  }
+  .contacts__email {
+    font-size: 16px;
+  }
+  .contacts__adress {
+    font-size: 16px;
+  }
+  .catalog {
+    padding-top: 150px;
+    padding-bottom: 60px;
+    margin-inline: 20px;
+  }
+
+  .catalog__title {
+    font-size: 35px;
+    margin-bottom: 40px;
+  }
+}
+
+@media (max-width: 580px) {
+  .footer__number {
+    display: none;
+  }
+}
